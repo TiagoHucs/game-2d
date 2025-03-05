@@ -7,7 +7,7 @@ class Player extends Actor implements KeyListener {
     private boolean moveLeft, moveRight, moveUp, moveDown;
 
     public Player(int x, int y) {
-        super(x, y, 30, 50, 5);
+        super(x, y, 30, 50, 5, "teste.png");
     }
 
     public void update() {
